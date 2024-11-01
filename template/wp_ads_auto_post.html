@@ -1,0 +1,63 @@
+
+<?php 
+//Tamaño Plugin
+	switch ($size) {
+    case 1:
+        $w='125';
+        $h='125';
+        break;
+    case 2:
+        $w='180';
+        $h='150';
+        break;
+    case 3:
+        $w='200';
+        $h='200';
+        break;
+    case 4:
+        $w='250';
+        $h='250';
+        break;
+    case 5:
+        $w='300';
+        $h='250';
+        break;
+    case 6:
+        $w='336';
+        $h='280';
+        break;
+	}
+	
+	if($boton==1){
+		$h=$h+20;
+	}
+	
+
+	$publicidad= '<span id="ads516516as" style="margin:5px;float:'.$posicion.';width:'.$w.'px;height:'.$h.'px;border:0px solid">';
+			if($boton==1){
+				$publicidad.= '<center><input style="height:20px;font-size:10px" type="button" value="Hide" onclick=$("#ads516516as").toggle(500) title="Hide ADS" ></center>';
+			}
+			$publicidad.= $ads; 
+			
+			$publicidad.='</span><!-- ADS Auto Post | Powered by Jodacame (http://nexxuz.com)-->';
+			
+		//echo '<!-- '.$userr.' -->';	
+	if($userr==0){	
+			
+		if ($user_level > 0) {
+		
+		}else{
+				
+			if (is_single() && !is_home()) {
+					
+					$content=$publicidad . $content;
+	
+			}
+		}
+	}else{
+		if (is_single() && !is_home()) {
+					$content=$publicidad . $content;
+	
+			}
+	}
+?>

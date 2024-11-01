@@ -1,0 +1,52 @@
+=== Plugin Name ===
+	
+Contributors:Jodacame
+Author URI: http://nexxuz.com/
+Tags: ads, adsense, publicidad
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=10644953
+Requires at least: 2.0.2
+Tested up to: 3.0
+Stable tag: trunk
+
+WP Auto Post ADS: a plugin that allows you to add advertising (Adsense) automatically in your posts.
+
+== Description ==
+
+WP Auto Post ADS: a plugin that allows you to add advertising (Adsense) automatically in your posts, among the most prominent features are: 
+Support for JavaScript and HTML. 
+Adjustable sizes. 
+Positioning article.
+Advertising Hide button.
+Support IFRAMES .
+
+
+WP ADS Auto Post: es un plugin que te permite agregar publicidad (Adsense) automáticamente en tus entradas, entre las características mas destacadas tenemos:
+
+Soporte a JavaScript y HTML.
+Tamaños Ajustables.
+Posicionamiento en el articulo.
+Botón para Ocultar la Publicidad.
+Soporte a IFRAMES.
+
+
+
+== Installation ==
+
+
+1. Upload `wp_ads_auto_post` to the `/wp-content/plugins/` directory
+2. Activate the plugin through the 'Plugins' menu in WordPress
+3. Go to > Options > Wp ads Auto Post
+
+
+== Screenshots ==
+
+Demo and Screenshots
+http://www.nexxuz.com/wp-ads-auto-post-plugin-wordpress.html
+
+== Changelog ==
+
+= 0.2 =
+First version
+
+
+
